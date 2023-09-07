@@ -1,0 +1,91 @@
+I code a lot from my desktop, so I wrote this so I could code and text at the same time :P
+
+Using the app is pretty simple.. 
+Just activate via SBSettings, then Navigate to your iphone's IP address.
+
+e.g. http://192.168.1.2:8080/
+
+or via bonjour like http://treasons-iphone.local:8080/ (of course rename the "treason" part with your iDevice name)
+
+Port is configurable through the web interface.
+Authentication can be added through the web interface.
+You can send and receive SMS, and view MMS (pics and videos)
+
+If the contacts names dont match the numbers, check the country code thingy in settings. It's set for USA by default.
+
+Umm I'm sure there's some other stuff I am forgetting to mention but yea install it and poke around.
+
+
+
+Change Log:
+
+1.1.0
+Fixed shift-enter on chrome
+Fixed incoming imessage image display
+Added 2 previously unknown imessage flags credit: @Rian083 
+Added french translation ( http://IP:Port/index-fr.html ) credit: @daReal68
+Other bugs I can't remember ATM
+
+1.0.9
+
+Fixed:
+MMS inline imagery
+iMessage inline imagery
+iOS5 emoji tables, (still sends with iOS4 emoji)
+Carriage returns displaying in bubbles
+
+Added:
+Press (shift+enter) to start a new line in an outgoing SMS
+
+Removed:
+Conversation deletion. It never worked right with imessage
+
+But treason, Y U NO ADD iMessage sending?
+
+- because I don't have the time or energy to reverse engineer it. Send me code sample and I'll include it.
+
+
+1.0.8
+
+very basic iMessage support
+Mark as read on iOS5
+
+1.0.7
+
+iOS5 support
+
+1.0.6
+
+Minor bug fix
+
+1.0.5
+
+Added Start new conversation button with autocomplete
+Added conversation deletion (hover over sidebar)
+Added conversation download (Hover over top contact name)
+Added basic iPhone Delivery support
+Added URL parsing in SMS
+Added text smileys to emoji ( credit @jrcdude )
+Added sidebar re-ordering by date
+Added new contacts creation dynamically into sidebar 
+Better SMS sending thanks to   ( credit @johoja1 )
+Fixed JSON issue
+Better Number formatting
+Sorting SMS by rowid instead of date
+Fixed issue when starting app with no conversations
+
+
+1.0.4
+Now Showing conversations without saved contact
+Fix for country codes
+Removed a bunch of unneeded dependancies
+JSON escape character fix
+Added retries when adding to SMS.db
+
+
+Roadmap: 
+
+Add websockets for immediate notifications
+Add group messaging support
+Add file uploads from browser to MMS
+Start new SMS conversation
